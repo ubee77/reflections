@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do it?
+when we initialise a repository, a folder named .git is created first.
+It is hidden by default, in most file explorers. it does not have any 
+commit or screenshot of any version of the files in that directory. 
+They are in a untracked state. git knows, the files exist, but that 
+they are not being tracked at present. Their history of versions is not 
+recorded by git yet.
+To apply version control to a directory, that is, to keep a record of
+its versions here onwards, a git repository is initialized.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging area has files added to it from w.d. if commit command 
+is given screen shot of staging are is saved to repsitory. files, 
+once put onto the staging area, thay there until explicitly removed.
+there after, whenever commit is used, version of all files in staging area is saved.
