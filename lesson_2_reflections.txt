@@ -11,4 +11,20 @@ How is the staging area different from the working directory and the repository?
 staging area has files added to it from w.d. if commit command 
 is given screen shot of staging are is saved to repsitory. files, 
 once put onto the staging area, thay there until explicitly removed.
-there after, whenever commit is used, version of all files in staging area is saved.
+there after, whenever commit is used, version of all files in staging 
+area is saved.
+How can you use the staging area to make sure you have one commit per logical change?
+commit takes screenshot of staging area and stores it.
+We might make some changes in some file to ensure a logical change.
+No other file needs to be affected for this logical change.
+if by chance, some other file is affected, it would not harm if
+we add only the required file to the staging area and commit. 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+to make experimental changes, keeping a version working.
+developing different aspcts simultaneously, but in a clean visible form.
+How do the diagrams help you visualize the branch structure?
+it shows the entire history and is easier to analyse and understand.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros: saves time and tedious work.
+cons: git has no logical understanding. A removed by Jack, left by Rachel. C added by
+ Rachel, C might need A. should be raising conflict here, but it wont!------Doubt(1).
