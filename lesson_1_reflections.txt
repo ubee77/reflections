@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Viewing a diff between two versions of a file 
+helped a lot to find or rather spot the bug 
+introduced. 
+Normally, one would have to manually read the 
+entire code to spot the bug. Using diff, a lot
+of time and energy was saved.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+When a project is under development, changes are
+made to it continuously and that is how it develps.
+Hoever, not all changes are for the good. There 
+are situations when a previous version is found
+ to be better and one might want to restore that 
+ version. Easy acces to such versions is thus helpful.
+ What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+pros:
+ every logical change can be saved
+ esier to understand, while reading the log
+cons:
+ dependent on programmer's choice of commiting
+ if progrmmer doesnt commit often or commits too often, problematic
+ Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+ while developing a project, one might need to code on separate files.
+ And these are highly related. Logical changes to the project often 
+ involve simultaneous related changes to one or more of these files.
+ So, instead of saving versions of each such file separately,
+ it makes more sence to store versions of the entire collection of
+ files. This might not be required while saving versions of documentary
+  files as those files do not share such inter-relation. 
+  How can you use the commands git log and git diff to view the history of files?
+  git log is used to view all commits made, along with the author of 
+  the commit, a breif description of the logial change made in that 
+  commit. git diff is used to compare two versions. It givesthe lines 
+  deleted and added.
+How might using version control make you more confident to make changes that could break something?
+Using version control, I can go back to previous versions, identifying
+the actual cause of any bug. As the previous versions are retrievable
+completely and easily, changes can be made without much fear making
+things worse. 
