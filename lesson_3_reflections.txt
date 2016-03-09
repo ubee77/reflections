@@ -9,4 +9,9 @@ more than 1 features), or by more than 1 users in a single repository.
 clone copies the entire repository either from a given URL or from the path of some other local 
 repository onto a newly created repository in the local computer.
 fork copies the entire repositry on the github servers onto a newly created repository on the github server itself.
-
+What is the benefit of having a copy of the last known state of the remote stored locally?
+fast forward merge is possible, as only then we get a structure where we might need to 
+merge a commmit into one of its anscestors, as the stored last copy would be either the 
+ancestor or the node itself(just after a git fetch). even otherwise, during fetch, git 
+needs to copy to local repository, only a the new commits. Otherwise, it would have had 
+to copy everything, to implement storing entire version. 
