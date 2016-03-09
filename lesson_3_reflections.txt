@@ -15,3 +15,5 @@ merge a commmit into one of its anscestors, as the stored last copy would be eit
 ancestor or the node itself(just after a git fetch). even otherwise, during fetch, git 
 needs to copy to local repository, only a the new commits. Otherwise, it would have had 
 to copy everything, to implement storing entire version. 
+
+test local repo
