@@ -24,3 +24,10 @@ testing github
 got it!
 if we are in out of sync or behind state, we cannot push. we need to fetch and merge first
 or pull. then push.
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+i would send the file to the other person, expliitly stating the changes. and discuss and 
+develop accordingly. it would indeed be tedious.
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+branching: pros: keeps separate concepts apart. allows compartmentalisation of the task.
+con: merging different compartments needs to be done with care keeping in mind that you 
+are working with other people.
