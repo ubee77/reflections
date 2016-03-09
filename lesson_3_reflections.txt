@@ -16,4 +16,11 @@ ancestor or the node itself(just after a git fetch). even otherwise, during fetc
 needs to copy to local repository, only a the new commits. Otherwise, it would have had 
 to copy everything, to implement storing entire version. 
 
+<<<<< HEAD
 test local repo
+=====
+testing github
+>>>> f7c0a1f629af690e0d0b73a98068998875f93e76
+got it!
+if we are in out of sync or behind state, we cannot push. we need to fetch and merge first
+or pull. then push.
